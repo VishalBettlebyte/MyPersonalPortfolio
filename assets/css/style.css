@@ -3645,8 +3645,9 @@ a.btn-style-one::after {
  video {
     width: 100%;
     height: auto;
-    max-height: 80vh;
+    max-height: 60vh;
     border-radius: 8px;
+	margin-bottom: 3%;
 }
 
 .about-style-one-bottom-info {
@@ -3846,7 +3847,12 @@ a.btn-style-four .icon img {
 
 /* ============================================================== 
      # Portfolio
-=================================================================== */
+.=================================================================== */
+
+#gallery-masonary{
+	display: flex;
+}
+
 
 .shape-top-left img {
 	position: absolute;
@@ -3856,6 +3862,11 @@ a.btn-style-four .icon img {
 .magnific-mix-gallery {
 	margin: -15px;
 	overflow: hidden;
+}
+.gallery-item {
+	position: absolute;
+    left: 33.2579%;
+    top: 0px;
 }
 
 .gallery-items.colums-3 .gallery-item {
